@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using TravelManager.Views;
 
 namespace TravelManager
 {
@@ -13,6 +14,11 @@ namespace TravelManager
     {
         static void Main(string[] args)
         {
+            Console.Title = "Travel Manager";
+            string consoleName = "++++ Travel Manager Console ++++" + Environment.NewLine;
+            Console.WriteLine(consoleName);
+            MainMenuView.Display();
+            Console.ReadKey(true);
         }
     }
 }
