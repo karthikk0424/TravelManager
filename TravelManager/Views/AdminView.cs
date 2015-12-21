@@ -7,5 +7,6 @@ namespace TravelManager.Views
 {
     class AdminView
     {
+        Console.WriteLine("Hi");
     }
 }
