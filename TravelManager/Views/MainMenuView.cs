@@ -12,7 +12,7 @@ namespace TravelManager.Views
         {
             Console.WriteLine("Main Menu");
 
-            Console.WriteLine(" 1 - Query");
+            Console.WriteLine(" 1 - List");
             Console.WriteLine(" 2 - List All");
             Console.WriteLine(" 3 - Back");
 
