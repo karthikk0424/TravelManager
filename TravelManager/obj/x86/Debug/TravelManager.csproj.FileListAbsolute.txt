@@ -2,3 +2,5 @@ C:\Users\karthik\Desktop\TravelManager\TravelManager\bin\Debug\TravelManager.exe
 C:\Users\karthik\Desktop\TravelManager\TravelManager\bin\Debug\TravelManager.pdb
 C:\Users\karthik\Desktop\TravelManager\TravelManager\obj\x86\Debug\TravelManager.exe
 C:\Users\karthik\Desktop\TravelManager\TravelManager\obj\x86\Debug\TravelManager.pdb
+D:\TravelManager\TravelManager\obj\x86\Debug\TravelManager.exe
+D:\TravelManager\TravelManager\obj\x86\Debug\TravelManager.pdb
