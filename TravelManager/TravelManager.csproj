@@ -50,10 +50,14 @@
     <Compile Include="Boot\Launcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\Utils.cs" />
+<<<<<<< HEAD
     <Compile Include="Utils.cs" />
     <Compile Include="Views\AdminView.cs">
       <SubType>Code</SubType>
     </Compile>
+=======
+    <Compile Include="Views\AdminView.cs" />
+>>>>>>> 0ec6f3b9cf108a09e1bb55fb6c37257c64f894fd
     <Compile Include="Views\MainMenuView.cs" />
   </ItemGroup>
   <ItemGroup>
