@@ -24,7 +24,7 @@ namespace TravelManager.Boot
             switch (selection)
             {
                 case 1:
-                    Console.WriteLine("\n**** Authentication is required for Admin mode ****");
+                    Console.WriteLine("\n**** Authentication is required for Admin mode****");
                     AdminView.Display();  
                     break;
                 case 2:
