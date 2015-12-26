@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<busDetail>
+<busDetails Bus_Route_Number="1" Number_of_Available_Seats="50" Bus_Fare="100" />
+<busDetails Bus_Route_Number="2" Number_of_Available_Seats="51" Bus_Fare="110" />
+<busDetails Bus_Route_Number="3" Number_of_Available_Seats="52" Bus_Fare="120" />
+<busDetails Bus_Route_Number="11" Number_of_Available_Seats="53" Bus_Fare="130" />
+<busDetails Bus_Route_Number="12" Number_of_Available_Seats="54" Bus_Fare="140" />
+<busDetails Bus_Route_Number="13" Number_of_Available_Seats="55" Bus_Fare="150" />
+<busDetails Bus_Route_Number="21" Number_of_Available_Seats="56" Bus_Fare="160" />
+<busDetails Bus_Route_Number="22" Number_of_Available_Seats="57" Bus_Fare="170" />
+<busDetails Bus_Route_Number="23" Number_of_Available_Seats="58" Bus_Fare="180" />
+<busDetails Bus_Route_Number="0" Number_of_Available_Seats="0" Bus_Fare="0" />
+</busDetail>

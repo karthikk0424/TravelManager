@@ -4,3 +4,6 @@ C:\Users\karthik\Desktop\TravelManager\TravelManager\obj\x86\Debug\TravelManager
 C:\Users\karthik\Desktop\TravelManager\TravelManager\obj\x86\Debug\TravelManager.pdb
 D:\TravelManager\TravelManager\obj\x86\Debug\TravelManager.exe
 D:\TravelManager\TravelManager\obj\x86\Debug\TravelManager.pdb
+D:\TravelManager\TravelManager\obj\x86\Debug\TravelManager.csprojResolveAssemblyReference.cache
+D:\TravelManager\TravelManager\bin\Debug\TravelManager.exe
+D:\TravelManager\TravelManager\bin\Debug\TravelManager.pdb
