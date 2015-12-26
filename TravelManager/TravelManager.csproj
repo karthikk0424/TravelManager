@@ -43,8 +43,6 @@
   <ItemGroup>
     <Compile Include="Boot\WelcomeScreen.cs" />
     <Compile Include="Bus\Bus.cs" />
-    <Compile Include="ClientServer\Client.cs" />
-    <Compile Include="ClientServer\Server.cs" />
     <Compile Include="Constant.cs" />
     <Compile Include="Controller\TravelController.cs" />
     <Compile Include="Boot\Launcher.cs" />

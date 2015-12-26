@@ -9,7 +9,7 @@ namespace TravelManager.Controller
     {
         public static void Init()
         {
-            LoadXML();
+            //LoadXML();
         }
     }
 }
