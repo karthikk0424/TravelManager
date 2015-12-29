@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using TravelManager.Views;
+using TravelManager.Boot;
 
 namespace TravelManager
 {
@@ -17,7 +18,8 @@ namespace TravelManager
             Console.Title = "Travel Manager";
             string consoleName = "++++ Travel Manager Console ++++" + Environment.NewLine;
             Console.WriteLine(consoleName);
-            MainMenuView.Display();
+            WelcomeScreen welcome = new WelcomeScreen();
+            welcome.InitWelcomeScreen();
             Console.ReadKey(true);
         }
     }
