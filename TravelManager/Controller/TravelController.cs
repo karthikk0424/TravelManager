@@ -180,6 +180,20 @@ namespace TravelManager.Controller
                 writer.Close();
             }
         }
+        private static XmlDocument m_document = null;
+        public static XmlDocument LoadDocument(string documentName = Constant.XML_FILE_NAME_SOURCE)
+        {
+            if (m_document == null || !documentName.Contains(m_document.DocumentElement.Name))
+            {
+                m_document = new XmlDocument();
+                m_document.Load(documentName);
 
+            }
+            return m_document;
+        }
+        public static XmlNodeList GetXMLNodeList(string XmlTagName = Constant.XML_ELEMENT_NODE_SOURCE)
+        {
+            return m_document.GetElementsByTagName(XmlTagName);
+        }
     }
 }

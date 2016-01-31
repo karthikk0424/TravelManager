@@ -7,7 +7,7 @@ namespace TravelManager
 {
     class Constant
     {
-        public const string XML_SERVER_PATH = "http://127.0.0.1/LibraryInventory/";
+        public const string XML_SERVER_PATH = "http://127.0.0.1/TravelManager/";
 
         public const string XML_FILE_NAME_SOURCE = "sourcePt.xml";
         public const string XML_FILE_NAME_DESTINATION = "destinationPt.xml";
@@ -21,5 +21,17 @@ namespace TravelManager
 
         public const string XML_ROOT_ELEMENT_BUSDETAILS = "busDetail";
         public const string XML_ELEMENT_NODE_BUSDETAILS = "busDetails";
+
+        public const string SOURCE_NAME = "Source_Name";
+        public const string SOURCE_ROUTE_NUMBER = "Route_Number";
+
+        public const string DESTINATION_NAME = "Destination_Name";
+        public const string DESTINATION_ROUTE_NUMBER = "Route_Number";
+
+        public const string ROUTE_NUMBER = "Route_Number";
+        public const string AVAILABLE_SEATS = "Available_Seats";
+        public const string BUS_FARE = "Bus_Fare";
+
+
     }
 }

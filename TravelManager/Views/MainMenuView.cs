@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using TravelManager.Utilities;
+using TravelManager.Controller;
+using TravelManager.Views;
+using TravelManager.Boot;
+using TravelManager.Bus;
 
 namespace TravelManager.Views
 {
@@ -21,6 +25,7 @@ namespace TravelManager.Views
             switch (selection)
             {
                 case 1:
+                    Bus.Bus.Query();
                     break;
                 case 2:
                     break;
