@@ -80,7 +80,7 @@ namespace TravelManager.Controller
             sourcePt[6] = new Source("Coimbatore", 0003);
             sourcePt[7] = new Source("Coimbatore", 0013);
             sourcePt[8] = new Source("Coimbatore", 0023);
-            
+
 
             using (XmlWriter writer = XmlWriter.Create(Constant.XML_FILE_NAME_SOURCE))
             {
@@ -95,7 +95,7 @@ namespace TravelManager.Controller
 
                     writer.WriteAttributeString("Source_Point_Name", source.m_SourceName);
                     writer.WriteAttributeString("Route_Number", source.m_RouteNumber.ToString());
-                    
+
                     writer.WriteEndElement();
                     writer.WriteWhitespace("\n");
                 }
@@ -145,15 +145,15 @@ namespace TravelManager.Controller
         public static void CreateBusDetailsXMLData()
         {
             BusDetails[] busDetails = new BusDetails[10];
-            busDetails[0] = new BusDetails(0001,50,100);
-            busDetails[1] = new BusDetails(0002,51,110);
-            busDetails[2] = new BusDetails(0003,52,120);
-            busDetails[3] = new BusDetails(0011,53,130);
-            busDetails[4] = new BusDetails(0012,54,140);
-            busDetails[5] = new BusDetails(0013,55,150);
-            busDetails[6] = new BusDetails(0021,56,160);
-            busDetails[7] = new BusDetails(0022,57,170);
-            busDetails[8] = new BusDetails(0023,58,180);
+            busDetails[0] = new BusDetails(0001, 50, 100);
+            busDetails[1] = new BusDetails(0002, 51, 110);
+            busDetails[2] = new BusDetails(0003, 52, 120);
+            busDetails[3] = new BusDetails(0011, 53, 130);
+            busDetails[4] = new BusDetails(0012, 54, 140);
+            busDetails[5] = new BusDetails(0013, 55, 150);
+            busDetails[6] = new BusDetails(0021, 56, 160);
+            busDetails[7] = new BusDetails(0022, 57, 170);
+            busDetails[8] = new BusDetails(0023, 58, 180);
 
 
             using (XmlWriter writer = XmlWriter.Create(Constant.XML_FILE_NAME_BUSDETAILS))
