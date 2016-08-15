@@ -23,14 +23,36 @@ namespace TravelManager.Controller
 
                 if (!valid)
                 {
-                    Console.WriteLine("\nEnter a valid option");
+                    Console.WriteLine("\n Enter a valid option");
                 }
             } while (!valid);
         }
 
         public static void PopulatePassengerFields()
         {
-          [] passengers = new Passenger[SearchController.m_NumberOfTickets];
+            List<Passenger.sPassenger> rawPassengers = new List<Passenger.sPassenger>(SearchController.m_NumberOfTickets);
+            List<Passenger.sPassenger>  passengers = new List<Passenger.sPassenger>();
+            Passenger.sPassenger passenger;
+            //foreach (Passenger.sPassenger sPassenger in rawPassengers)
+            for (int i = 1; i <= SearchController.m_NumberOfTickets; i ++)
+            {
+                string name = string.Empty;
+                string address = string.Empty;
+                string phone = string.Empty;
+
+                Console.WriteLine("\nDetails for passenger " + i);
+                Console.WriteLine("Enter full name of the passenger->");
+                name = Console.ReadLine();
+
+                Console.WriteLine("Enter address of the passenger->");
+                address = Console.ReadLine();
+
+                Console.WriteLine("Enter phone number of the passenger->");
+                phone = Console.ReadLine();
+                passenger = new Passenger.sPassenger(name, phone, address);
+
+                passengers.Add(passenger);
+            }
         }
     }
 }

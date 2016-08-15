@@ -19,7 +19,9 @@ namespace TravelManager.Views
 
             if (BookingController.m_UserDecision.Equals("y"))
             {
-                
+                BookingController.PopulatePassengerFields(); 
+
+                // TODO Store passenger details in SQL or XML and prepare passenger ticket
             }
             else
             {
